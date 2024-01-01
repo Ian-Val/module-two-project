@@ -1,0 +1,86 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+div.row{
+	padding: 10px;
+}
+
+h1 {
+	margin: 10px;
+	font-size: 40px;
+	text-align: center;
+}
+
+section {
+	padding: 10px;
+}
+
+section.container {
+	border: 3px solid black;
+	background: gray;
+	padding: 0px;
+}
+
+div.title {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	float: right;
+	padding: 5px;
+	width: 150px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+}
+
+div.text {
+	clear: right;
+	padding: 15px;
+	font-size: 20px;
+}
+
+.chicken {
+	background: salmon;
+	color: black;
+}
+
+.beef {
+	background: maroon;
+	color: white;
+}
+
+.sushi {
+	background: goldenrod;
+	color: black;
+}
+/*
+/*Desktop*/
+@media (min-width: 992px){
+	.lg-third {
+		float: left;
+		width: 33.33%;
+	}
+}
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px){
+	.md-whole, .md-half {
+		float: left;
+	}
+	.md-whole {
+		width: 100%;
+	}
+	.md-half {
+		width: 50%;
+	}
+}
+/*Mobile*/
+@media (max-width: 767px){
+	.sm-whole {
+		float: left;
+		width: 100%;
+	}
+}
+*/
